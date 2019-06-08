@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card.css';
+
 // card and card.css from https://stackblitz.com/edit/react-flashcards
 
 //this is a functional and presentational component
