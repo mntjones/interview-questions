@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Card from './containers/Card'
 import './App.css';
 
 function App() {
@@ -9,6 +9,11 @@ function App() {
         
         <h1>Interview Questions</h1>
       </header>
+
+      <body className="App-card">
+        < Card />
+      </body>
+
     </div>
   );
 }
