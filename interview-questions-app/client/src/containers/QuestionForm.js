@@ -51,3 +51,9 @@ class QuestionForm extends React {
     )
   }
 }
+
+const mapStateToProps = state => {
+  return { QuestionFormDataReducer: state.QuestionFormDataReducer }
+}
+
+export default connect(mapStateToProps, {updateQuestionFormData, createQuestion})(QuestionForm);
